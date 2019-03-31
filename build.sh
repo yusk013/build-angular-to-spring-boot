@@ -6,9 +6,11 @@ git clone https://github.com/yusk013/build-spring-boot-with-angular.git /store/b
 
 cd /store/build/web/
 
+npm install
+
 ng build --prod
 
-/cp /store/build/web/dist/** /store/build/server/src/main/resources/
+\cp -rf /store/build/web/dist/web /store/build/server/src/main/resources/static/
 
 cd /store/build/server/
 
