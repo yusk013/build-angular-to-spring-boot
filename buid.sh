@@ -8,7 +8,7 @@ cd /store/build/web/
 
 ng build --prod
 
-cp /store/build/web/dist/** /store/build/server/src/main/resources/angular/
+/cp /store/build/web/dist/** /store/build/server/src/main/resources/
 
 cd /store/build/server/
 
