@@ -15,7 +15,8 @@ npm install
 
 ng build --prod
 
-\cp -rf /store/build/web/dist/web /store/build/server/src/main/resources/static/
+mkdir -p /store/build/server/src/main/resources/static/web
+\cp -rf /store/build/web/dist/web/* /store/build/server/src/main/resources/static/web/
 
 cd /store/build/server/
 
