@@ -50,4 +50,4 @@ nohup java -jar 1.0-RELEASE.jar &
 
 
 ## Next
-Modify the code for developer for dev.
+Modify the code for develop.

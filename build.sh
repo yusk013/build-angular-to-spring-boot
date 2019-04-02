@@ -1,5 +1,10 @@
 #! /bin/bash
 
+# kill the running java
+if [ -f "/store/an.pid" ];then
+  kill -9 `cat /store/an.pid`
+fi
+
 rm -rf /store/build
 
 git clone https://github.com/yusk013/build-spring-boot-with-angular.git /store/build
